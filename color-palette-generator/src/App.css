@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+@import url('./index.css');
+@import url('./css/Toast.css');
+@import url('./css/Main.css');
+@import url('./css/Card.css');
+#root{
+    background: var(--bgBody);
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+header{
+    padding: .5rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+main{
+    width: 75%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+footer{
+    margin: 2rem;
+    padding: 1rem;
+    background: var(--cardBG);
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
 }
