@@ -1,0 +1,42 @@
+main{
+    width: 20rem;
+    background: var(--bgCard);
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 44px 44px 10px 1px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 44px 44px 10px 1px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 44px 44px 10px 1px rgba(0,0,0,0.1);
+}
+main h1{
+    margin: .5rem;
+}
+main button{
+    padding: .5rem;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    background: linear-gradient(90deg,var(--btnGradientL),var(--btnGradientR));
+    color: var(--bgCard);
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+    transition: background .5s ease-in-out;
+    -webkit-transition: background .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out;
+    -ms-transition: background .5s ease-in-out;
+    -o-transition: background .5s ease-in-out;
+}
+main button:hover{
+    background: var(--txtName);
+}
+@media (max-width: 375px) {
+    main{
+        width: 90%;
+    }
+}

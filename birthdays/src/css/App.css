@@ -1,0 +1,10 @@
+@import url(index.css);
+@import url(Card.css);
+@import url(Birthday.css);
+#root{
+    background: var(--bg);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

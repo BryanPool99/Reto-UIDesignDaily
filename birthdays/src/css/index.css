@@ -1,0 +1,13 @@
+:root{
+    --bg:#F28AB2;
+    --txtName:#333638;
+    --txtAge:#ADACB2;
+    --bgCard:#FFFFFF;
+    --btnGradientL:#E66DD0;
+    --btnGradientR:#FB6AAA;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
