@@ -1,0 +1,14 @@
+@import url(App.css);
+:root{
+    --primaryColor:#132B50;
+    --bgLogin:#fff;
+    --bgBody:#F7F6F8;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: var(--bgBody);
+}
