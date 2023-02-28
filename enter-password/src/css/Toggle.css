@@ -1,0 +1,48 @@
+.section-toggle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.btnContinue{
+    cursor: pointer;
+    background: var(--primaryColor);
+    color: var(--bgLogin);
+    border: none;
+    padding: .5rem;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+.btnContinue:hover{
+    background: var(--bgLogin);
+    color: var(--primaryColor);
+    border: .1px solid var(--primaryColor);
+}
+.section-toggle .container_toggle{
+    display: flex;
+    align-items: center;
+}
+.container_toggle button{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primaryColor);
+    background: transparent;
+    border: none;
+    margin: .5rem;
+    font-size: 1.5rem;
+}
+@media (max-width: 425px){
+    .section-toggle{
+        flex-wrap: wrap;
+    }
+}
