@@ -1,0 +1,12 @@
+@import url(css/Panel.css);
+@import url(css/Header.css);
+@import url(css/Search.css);
+@import url(css/ContainerContacts.css);
+@import url(css/Contact.css);
+.App{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bgBody);
+    height: 100vh;
+}
