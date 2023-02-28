@@ -7,10 +7,10 @@ const Input=()=>{
         inputRef.current.focus();
     }
     return(
-        <section>
-            <h2>Password</h2>
-            <div>
-                <div>
+        <section className='section-input'>
+            <b>Password</b>
+            <div className='container'>
+                <div className='container_input'>
                     <ion-icon name="lock-closed-outline"></ion-icon>
                     <input type={visible ? 'text' : 'password'} ref={inputRef}/>
                 </div>
