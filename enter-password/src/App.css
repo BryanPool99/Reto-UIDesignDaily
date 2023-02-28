@@ -1,4 +1,7 @@
 @import url(css/Login.css);
+@import url(css/Avatar.css);
+@import url(css/Input.css);
+@import url(css/Toggle.css);
 #root{
     min-height: 100vh;
     display: flex;
