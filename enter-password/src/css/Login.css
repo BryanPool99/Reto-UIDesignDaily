@@ -1,0 +1,19 @@
+main{
+    border: 2px solid black;/*tmp*/
+    background: var(--bgLogin);
+    color: var(--primaryColor);
+    width: 50%;
+    padding: 2rem;
+}
+main a,main a:visited{
+    color: var(--primaryColor);
+    font-weight: 500;
+    transition: font-weight 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
+    -webkit-transition: font-weight 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
+    -moz-transition: font-weight 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
+    -ms-transition: font-weight 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
+    -o-transition: font-weight 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+main a:hover{
+    font-weight: 800;
+}
