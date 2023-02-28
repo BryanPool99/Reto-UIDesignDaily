@@ -6,17 +6,17 @@ const Toggle=()=>{
         setActive(!active);
     }
     return(
-        <section>
-            <div>
+        <section className='section-toggle'>
+            <div className='container_toggle'>
                 <button onClick={isActive}>{
                     active ? 
                     <FaToggleOn/>
                     :
                     <FaToggleOff/> }
                 </button>
-                <p>Stay signed in</p>
+                <b>Stay signed in</b>
             </div>
-            <button>Continue</button>
+            <button className='btnContinue'>Continue</button>
         </section>
     );
 }
