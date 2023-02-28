@@ -1,0 +1,15 @@
+@import url(App.css);
+:root{
+  --bgBody:#D4E4F9;
+  --conect:#9DCC51;
+  --colorText:#000;
+  --bgInput:#DBE4EE;
+  --colorInput:#878F9D;
+  --colorH1:#344057;
+  --bgPanel:#fff;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
