@@ -1,0 +1,32 @@
+.container-search{
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-search aside{
+    padding: 1rem;
+    background: var(--bgInput);
+    display: flex;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+}
+aside button{
+    border: none;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: var(--colorInput);
+    margin: 0 1rem 0 0;
+}
+aside input{
+    outline: none;
+    border: none;
+    background: transparent;
+    color: var(--colorInput);
+}
