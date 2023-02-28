@@ -1,11 +1,21 @@
 main{
-    border: 2px solid black;/*tmp*/
     background: var(--bgLogin);
     color: var(--primaryColor);
-    width: 50%;
+    width: 24rem;
     padding: 2rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    box-shadow: 16px 24px 12px -9px var(--primaryColor);
+}
+main h1{
+    text-align: center;
+    margin: .5rem;
 }
 main a,main a:visited{
+    padding: 1rem;
     color: var(--primaryColor);
     font-weight: 500;
     transition: font-weight 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -16,4 +26,10 @@ main a,main a:visited{
 }
 main a:hover{
     font-weight: 800;
+}
+@media (max-width: 425px) {
+    main{
+        width: 80%;
+        padding: .5rem;
+    }
 }
