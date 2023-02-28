@@ -1,0 +1,36 @@
+ul{
+    list-style: none;
+    padding: 1rem;
+}
+ul li{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: .5rem;
+}
+li img{
+    width: 5rem;
+    height: 5rem;
+    margin: .5rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+li figure::after{
+    content: "<<";
+    position: relative;
+    right: 2rem;
+    bottom: 4.9rem;
+    width: .5rem;
+    height: .5rem;
+    border-radius: 50%;
+    background: var(--conect);
+    color: transparent;
+    font-weight: bold;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
