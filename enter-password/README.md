@@ -1,6 +1,6 @@
 # Demo
 
- [DEMO](enterpassword.vercel.app).
+ link: https://enterpassword.vercel.app/
 
 ## Available Scripts
 
