@@ -58,7 +58,7 @@ export const data=[
         imgURL:img7,
         alt:"jurica-koletic",
         name:"Jurica Koletic",
-        isActive:true,
+        isActive:false,
     },
     {
         id:8,
@@ -79,7 +79,7 @@ export const data=[
         imgURL:img10,
         alt:"sergio-de-paula",
         name:"Sergio de Paula",
-        isActive:true,
+        isActive:false,
     },
     {
         id:11,
@@ -93,6 +93,6 @@ export const data=[
         imgURL:img12,
         alt:"warren-wong",
         name:"Warren Wong",
-        isActive:true,
+        isActive:false,
     },
 ]
