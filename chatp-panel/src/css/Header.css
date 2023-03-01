@@ -24,3 +24,44 @@
     font-size: 1.2rem;
     cursor: pointer;
 }
+.icons .setting:hover{
+    animation: rotate infinite  .5s ;
+    -webkit-animation: rotate infinite  .5s ;
+}
+@keyframes rotate {
+    0%{
+        transform: rotate(10deg);
+        -webkit-transform: rotate(10deg);
+        -moz-transform: rotate(10deg);
+        -ms-transform: rotate(10deg);
+        -o-transform: rotate(10deg);
+}
+    25%{
+        transform: rotate(100deg);
+        -webkit-transform: rotate(100deg);
+        -moz-transform: rotate(100deg);
+        -ms-transform: rotate(100deg);
+        -o-transform: rotate(100deg);
+}
+    50%{
+        transform: rotate(190deg);
+        -webkit-transform: rotate(190deg);
+        -moz-transform: rotate(190deg);
+        -ms-transform: rotate(190deg);
+        -o-transform: rotate(190deg);
+}
+    75%{
+        transform: rotate(280deg);
+        -webkit-transform: rotate(280deg);
+        -moz-transform: rotate(280deg);
+        -ms-transform: rotate(280deg);
+        -o-transform: rotate(280deg);
+}
+    100%{
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+}
+}
