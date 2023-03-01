@@ -18,19 +18,19 @@ li img{
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
-li figure::after{
-    content: "<<";
+figure{
+    display: flex;
+}
+figure .online{
+    width: .8rem;
+    height: .8rem;
     position: relative;
     right: 2rem;
-    bottom: 4.9rem;
-    width: .5rem;
-    height: .5rem;
+    top: .5rem;
     border-radius: 50%;
-    background: var(--conect);
-    color: transparent;
-    font-weight: bold;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-}
+    background: var(--conect);
+}   
