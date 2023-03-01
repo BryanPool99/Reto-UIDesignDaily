@@ -5,6 +5,7 @@
     justify-content: center;
 }
 .container-search aside{
+    width: 85%;
     padding: 1rem;
     background: var(--bgInput);
     display: flex;
