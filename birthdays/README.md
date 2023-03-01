@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# DEMO
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+this is the link for the DEMO https://cards-birthdays.vercel.app/
 
 ## Available Scripts
 
